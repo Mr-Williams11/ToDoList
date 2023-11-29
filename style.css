@@ -32,18 +32,17 @@ input[type="text"] {
 }
 
 button {
-    /* padding: 8px 16px; */
     font-size: 1.5rem;
     cursor: pointer;
     background: transparent;
     border: none;
     color: aliceblue;
-    
 }
 
 .removeBtn{
     font-size: 15px;
-    position: relative;
+    position: absolute;
+    align-items: right;
 }
 
 span{
@@ -51,4 +50,3 @@ span{
     font-size: 25px;
     margin: 20px;
 }
-
